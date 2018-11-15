@@ -2,8 +2,7 @@ Wiremock
 ========
 
 Wiremock is a mock and proxy for web services. This docker image have some pre-configured mappings 
-used for my presentation of API tests with Rest Assured.
-
+used for my hands-on presentation of API tests with Rest Assured.
 
 
 ## Build
@@ -16,6 +15,8 @@ docker build -t wiremock .
 ```shell
 docker run --rm -ti -p 8080:8080 wiremock
 ```
+
+If you do not have docker I've added a run.sh script and versioned a wiremock jar. So you just need to run ```./run.sh```. 
 
 ## Adding target mappings
 
