@@ -5,8 +5,6 @@ EXPOSE 8080
 
 ARG WIREMOCK_VERSION=2.19.0
 
-
-# Avoid too many layers in the Docker image. Check more informations here https://www.spantree.net/blog/2015/04/26/tips-docker.html
 ENV	WIREMOCK_JAR=wiremock-standalone-${WIREMOCK_VERSION}.jar
 
 RUN apk --no-cache add ca-certificates curl openssl
