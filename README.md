@@ -2,7 +2,7 @@ Wiremock
 ========
 
 Wiremock is a mock and proxy for web services. This docker image have some pre-configured mappings 
-used for my hands-on presentation of API tests with Rest Assured.
+used for my hands-on presentation of API tests with Rest Assured: https://github.com/massahud/api-test-example
 
 
 ## Build
