@@ -5,7 +5,7 @@ EXPOSE 8080
 
 ARG WIREMOCK_VERSION=2.19.0
 
-ENV	WIREMOCK_JAR=wiremock-standalone-${WIREMOCK_VERSION}.jar
+ENV WIREMOCK_JAR=wiremock-standalone-${WIREMOCK_VERSION}.jar
 
 RUN apk --no-cache add ca-certificates curl openssl
 
