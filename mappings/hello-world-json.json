@@ -1,0 +1,20 @@
+{
+  "request": {
+    "urlPattern": "/",
+    "method": "ANY",
+    "headers": {
+      "Accept": {
+        "contains": "application/json"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": { "message": "Hello World" },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "persistent": true,
+  "priority": 7
+}

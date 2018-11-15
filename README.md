@@ -1,7 +1,10 @@
 Wiremock
 ========
 
-Wiremock is a mock and proxy for web services. This docker image have some pre-configured mappings.
+Wiremock is a mock and proxy for web services. This docker image have some pre-configured mappings 
+used for my presentation of API tests with Rest Assured.
+
+
 
 ## Build
 ```shell

@@ -1,0 +1,15 @@
+{
+  "request": {
+    "urlPattern": "/",
+    "method": "ANY"
+  },
+  "response": {
+    "status": 200,
+    "body": "Hello World",
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  },
+  "persistent": true,
+  "priority": 9
+}

@@ -1,0 +1,16 @@
+{
+  "request": {
+    "urlPattern": "/foo/.*",
+    "method": "PUT"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": { "id": "{{request.path.[1]}}" },
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": ["response-template"]
+  },
+  "persistent": true,
+  "priority": 9
+}

@@ -1,0 +1,11 @@
+{
+  "request": {
+    "urlPattern": "/foo/.*",
+    "method": "DELETE"
+  },
+  "response": {
+    "status": 204
+  },
+  "persistent": true,
+  "priority": 9
+}

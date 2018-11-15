@@ -1,0 +1,12 @@
+{
+  "request": {
+    "urlPattern": "/foo",
+    "method": "POST"
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": { "id": "123" }
+  },
+  "persistent": true,
+  "priority": 9
+}

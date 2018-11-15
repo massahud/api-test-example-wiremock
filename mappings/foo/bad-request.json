@@ -1,0 +1,13 @@
+{
+  "request": {
+    "urlPattern": "/foo.*",
+    "method": "ANY",
+    "bodyPatterns": [{ "contains": "BAD REQUEST"}]
+  },
+  "response": {
+    "status": 400,
+    "jsonBody": { "error": "bad request" }
+  },
+  "persistent": true,
+  "priority": 9
+}

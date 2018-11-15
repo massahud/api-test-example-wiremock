@@ -1,0 +1,12 @@
+{
+  "request": {
+    "urlPattern": "/foo/321",
+    "method": "PUT"
+  },
+  "response": {
+    "status": 403,
+    "jsonBody": { "error": "Forbidden" }
+  },
+  "persistent": true,
+  "priority": 8
+}
